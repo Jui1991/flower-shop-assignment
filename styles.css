@@ -1,3 +1,4 @@
+
 /*Header describing classes*/
 .header-container{
     /*width: 1920px;
@@ -114,4 +115,44 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    width: 1922px;
+    height: 449px;
+    background-color:rgb(17, 16, 16, 1) ;
+    color: rgb(255, 255, 255, 0.4);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+.text-color{
+    color: rgba(229, 84, 115, 1);
+}
+.footer-description{
+    
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
