@@ -1,12 +1,16 @@
+/*Header describing classes*/
 .header-container{
-    width: 1920px;
-    height: 850px;
+    /*width: 1920px;
+    height: 850px;*/
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
-   justify-content: space-around;
-   align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 240px;
     
 }
+
+/*Here describing all button as i find every button looks same.*/
 .btn{
     display: inline-flex;
     background-color: rgba(229, 84, 115, 1);
@@ -22,25 +26,92 @@
    
     color: black;
     flex-direction: column;
-
-
+    
 }
 .head-title{
-    font-family: Lato;
-    font-style: 80px;
+    width: 708px;
+    font-size: 80px;
     font-weight: 800;
-    line-height: normal;
+    margin-bottom: 10px;
+    align-items: center;
+    
 }
 .para-conf{
     color:  rgba(39, 39, 39, 1), rgba(39, 39, 39, 1);
     width: 634px;
-    
+    margin-bottom: 10px;
 }
 .right-side-head{
-   
+   padding: 50px 240px 0px ;
     flex-shrink: 0;
     background-color:  lightgray 50%; 
     background-repeat:  no-repeat;
     width: 635px;
     height: 800px;
+}
+/*Main section Styles*/
+.main-title1{
+    
+    text-align: center;
+    color: #272727; 
+    font-style: normal;
+    font-weight: 800;
+    
+}
+.main-description{
+    padding: 0px 663px 48px 663px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+}
+.featured-flower-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+    
+    
+}
+.featured-flower{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    padding: 0%;
+}
+
+.flower-img{
+    padding: 110px 78px 67px 76px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.flower-img1{
+    padding: 117px 47px 118px 47px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower-img2{
+    padding: 67px 75px 67px 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-link{
+    list-style: none;
+}
+
+.order-flower{
+    border-radius: 8px;
+    padding: 240px;
+    width: 1440px;
+    height: 320px;
+    
+    display: flex;
+    flex-shrink: 0; 
+    justify-content: space-around;
+    text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+}
+.icon-msg{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
