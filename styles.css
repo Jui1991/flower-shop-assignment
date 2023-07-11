@@ -1,8 +1,7 @@
 
 /*Header describing classes*/
 .header-container{
-    /*width: 1920px;
-    height: 850px;*/
+    
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: space-around;
@@ -66,9 +65,12 @@
 }
 .featured-flower-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     color: black;
+    padding: 128px 240px;
+    margin: 0px auto;
+    
     
     
 }
@@ -76,7 +78,9 @@
     width: 464px;
     height: 538px;
     flex-shrink: 0;
-    padding: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px auto;
 }
 
 .flower-img{
@@ -85,6 +89,7 @@
     border-radius: 300px 300px 0px 0px;
 }
 .flower-img1{
+    
     padding: 117px 47px 118px 47px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
@@ -103,7 +108,7 @@
     padding: 240px;
     width: 1440px;
     height: 320px;
-    
+    margin: 15px auto;
     display: flex;
     flex-shrink: 0; 
     justify-content: space-around;
@@ -120,16 +125,17 @@
 .offer-container{
     display: flex;
     text-align: center;
-    justify-content: center;
-    width: 1922px;
-    height: 620px;
+    justify-content: space-around;
+   
+    margin: 0px auto;
     flex-shrink: 0; 
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+
    
 }
 .offer{
-  text-align: center;
+
 }
 .offer-title{
     width: 537px;
@@ -155,10 +161,12 @@
 .offer-right-side-head{
     width: 318px;
     height: 420px;
-    padding: 100px 429px 100px 1175px;
+    padding: 100px 429px 100px 180px;
 }
 
-
+.insta{
+    padding-bottom: 142px;
+}
 .pic-container{
     padding-bottom: 128px;
     text-align: center;
@@ -168,6 +176,8 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    gap: 5px;
+    
 }
 
 
@@ -180,7 +190,7 @@
     flex-shrink: 0; 
     background-repeat:  no-repeat;
     background-image: url("./Flower\ Asset/Rectangle 9.png");
-    margin: auto;
+    margin: 0px auto;
 }
 
 
@@ -188,11 +198,11 @@
 
 /* Footer */
 footer {
-    width: 1922px;
-    height: 449px;
+   
     background-color:rgb(17, 16, 16, 1) ;
     color: rgb(255, 255, 255, 0.4);
     padding: 20px 0;
+    margin: 0px auto;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -214,4 +224,5 @@ footer {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    
 }
