@@ -118,11 +118,29 @@
 }
 
 
+.pic-container{
+    padding-bottom: 128px;
+    text-align: center;
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
 
 
 
 
-
+.getting-deals{
+    text-align: center;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0; 
+    background-repeat:  no-repeat;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    margin: auto;
+}
 
 
 
